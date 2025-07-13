@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: protected-video-server
+    env: node
+    plan: free
+    buildCommand: cd screenshot-server && npm install
+    startCommand: cd screenshot-server && npm start
+    rootDir: screenshot-server
+    autoDeploy: true
