@@ -38,7 +38,6 @@ This project is more of an **obfuscation** and **deterrence**, not foolproof DRM
 ## 🔴 Live Demo
 
 [🌐 View Live App](https://protectevideo-react-app.netlify.app/)  
-_(Replace with your deployed Vercel/Netlify URL)_
 
 ---
 
