@@ -34,6 +34,7 @@ function CanvasVideoPlayer() {
       ) {
         e.preventDefault();
         setOverlayActive(true);
+        videoRef.current.pause(); 
         setTimeout(() => setOverlayActive(false), 3000); 
       }
     };
